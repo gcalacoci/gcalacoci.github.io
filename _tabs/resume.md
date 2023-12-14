@@ -113,7 +113,7 @@ Sep 2002 – Present
 
 ### Projects
 
-#### [Barman](http://www.pgbarman.org/)
+#### [Barman](https://www.pgbarman.org/)
 
 Nov 2013 – Present
 
@@ -289,7 +289,7 @@ Sep 2016
 
 Talk about PostgreSQL disaster recovery and Barman at Dalibo PG Session #8 event.
 
-#### [PostgreSQL 9.5: partecipazione delle tabelle esterne all’ereditarietà (italian only)](http://blog.2ndquadrant.it/postgresql-9-5-eredita-tabelle-esterne/)
+#### [PostgreSQL 9.5: partecipazione delle tabelle esterne all’ereditarietà (italian only)](https://blog.2ndquadrant.it/postgresql-9-5-eredita-tabelle-esterne/)
 
 Published by **blog.2ndquadrant.it**
 
@@ -297,7 +297,7 @@ Nov 2015
 
 How the inheritance of foreign tables changes the partitioning of a table.
 
-#### [PostgreSQL 9.5: IMPORT FOREIGN SCHEMA](http://blog.2ndquadrant.com/postgresql-9-5-import-foreign-schema/)
+#### [PostgreSQL 9.5: IMPORT FOREIGN SCHEMA](https://blog.2ndquadrant.com/postgresql-9-5-import-foreign-schema/)
 
 Published by **blog.2ndquadrant.com**
 
@@ -305,7 +305,7 @@ May 2015
 
 An overview of the PostgreSQL "IMPORT FOREIGN SCHEMA" feature
 
-#### [What’s new about Barman 1.4.0?](http://blog.2ndquadrant.com/whats-new-barman-1-4-0/)
+#### [What’s new about Barman 1.4.0?](https://blog.2ndquadrant.com/whats-new-barman-1-4-0/)
 
 Published by **blog.2ndquadrant.com**
 
@@ -313,7 +313,7 @@ Mar 2015
 
 Overview of the 1.4 release of the barman software
 
-#### [Performing ETL using Kettle with GPFDIST and GPLOAD](http://blog.2ndquadrant.com/performing_etl_with_kettle_greenplum_gpfdist_gpload/)
+#### [Performing ETL using Kettle with GPFDIST and GPLOAD](https://blog.2ndquadrant.com/performing_etl_with_kettle_greenplum_gpfdist_gpload/)
 
 Published by **blog.2ndquadrant.com**
 
