@@ -50,7 +50,7 @@ Joined through EDB's acquisition of 2ndQuadrant.
   across several hiring rounds. Hired three engineers into the Barman team, then
   onboarded and mentored them; they now write most of Barman's code.
 - From 2024, ran an internal PostgreSQL optimization project for EDB's cloud platform and
-  built proofs of concept for senior leadership, alongside Barman.
+  built proofs of concept requested by the department's VP, alongside Barman.
 - Second-level (expert) support engineer for Barman, handling escalations from EDB's
   support team.
 - Advised the Barman team after moving to the AI team, until Aug 2026.
