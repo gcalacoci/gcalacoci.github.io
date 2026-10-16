@@ -1,0 +1,18 @@
+{{- /* schema.org Person: tells search engines who this site is about. Data in hugo.yaml (params.person). */ -}}
+{{- if or .IsHome (eq .RelPermalink "/about/") (eq .RelPermalink "/resume/") -}}
+{{- with site.Params.person -}}
+{{- $person := dict
+  "@context" "https://schema.org"
+  "@type" "Person"
+  "name" site.Params.author
+  "url" site.BaseURL
+  "image" (absURL "images/giulio-calacoci.jpg")
+  "jobTitle" .jobTitle
+  "description" site.Params.description
+  "address" (dict "@type" "PostalAddress" "addressLocality" .locality "addressCountry" .country)
+  "knowsAbout" .knowsAbout
+  "sameAs" .sameAs
+-}}
+<script type="application/ld+json">{{ $person | jsonify | safeJS }}</script>
+{{- end -}}
+{{- end -}}

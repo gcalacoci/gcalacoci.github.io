@@ -11,12 +11,16 @@ pagination:
 
 params:
   author: Giulio Calacoci
-  description: "Giulio Calacoci — Principal Software Engineer. Platform engineering, software delivery, PostgreSQL, open source."
-  keywords: "principal engineer,tech lead,platform engineering,postgresql,barman,python,ci/cd"
+  # Home page <title>; other pages use "<Page> · Giulio Calacoci"
+  HeadTitle: "Giulio Calacoci · Principal Software Engineer, PostgreSQL and Barman"
+  description: "Giulio Calacoci, Principal Software Engineer and tech lead from Florence, Italy. PostgreSQL, Barman, software delivery platforms, MCP for Postgres."
+  keywords: "Giulio Calacoci,principal engineer,tech lead,platform engineering,postgresql,barman,pg-airman-mcp,python,ci/cd"
+  # Default social preview image (og:image / twitter:image)
+  images: [images/giulio-calacoci.jpg]
   info:
     - Principal Software Engineer · Tech Lead
     - Platform engineering · Software delivery · PostgreSQL
-  avatarURL: https://mljam0ecsbd2.i.optimole.com/co-ZpyQ-ixTzbP-P/cb:my7wLGGl.lAqnbGxX/w:auto/id:3e50dd98eca48937cd51b9b2dd4466bb/directUpload/gravatar.jpeg
+  avatarURL: images/giulio-calacoci.jpg
   dateFormat: "January 2, 2006"
   since: 2023
   # Dark by default, toggle for light mode
@@ -28,10 +32,12 @@ params:
       icon: fa-brands fa-github fa-2x
       weight: 1
       url: https://github.com/gcalacoci
+      rel: me
     - name: LinkedIn
       icon: fa-brands fa-linkedin fa-2x
       weight: 2
       url: https://www.linkedin.com/in/gcalacoci/
+      rel: me
     - name: Email
       icon: fa-solid fa-envelope fa-2x
       weight: 3
@@ -42,6 +48,21 @@ params:
       url: index.xml
       rel: alternate
       type: application/rss+xml
+
+  # schema.org Person (JSON-LD), see layouts/_partials/head/extensions.html.
+  # sameAs ties this site to the same person on other sites, which helps search
+  # engines tell this Giulio Calacoci apart from others with the same name.
+  person:
+    jobTitle: Principal Software Engineer
+    locality: Florence
+    country: IT
+    knowsAbout: [PostgreSQL, Barman, Python, Continuous delivery, Platform engineering, Disaster recovery, Model Context Protocol]
+    sameAs:
+      - https://www.linkedin.com/in/gcalacoci/
+      - https://github.com/gcalacoci
+      - https://github.com/EnterpriseDB/barman
+      - https://github.com/EnterpriseDB/pg-airman-mcp
+      - https://www.postgresql.eu/events/pgconfeu2025/schedule/session/7103-barman-past-present-and-future-of-a-pioneer-community-project/
 
 menu:
   main:
