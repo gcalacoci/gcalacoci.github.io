@@ -2,12 +2,24 @@
 title: About
 ---
 
-Software architect, open-source enthusiast, automation lover.
+I'm a principal software engineer based in Florence, Italy. I've been writing software
+for 20 years, 15 of them around PostgreSQL: backup and disaster recovery, the delivery
+platforms that ship database products, and lately the tooling that lets AI agents use a
+database safely.
 
-One of my fondest memories traces back to the moment when, as a child, I played for the first time Ghostbusters on the Commodore 64. I like to think that my fascination for computers started with the game's multi-coloured loading screen, and that is why I've made a career in the IT world.
+Most of that time I spent at 2ndQuadrant and then at EDB, which acquired it in 2020. I
+built the continuous delivery platforms at both companies, led the
+[Barman](https://github.com/EnterpriseDB/barman) team at EDB, and finished in EDB's AI
+team working on MCP connectivity for Postgres, starting from
+[pg-airman-mcp](https://github.com/EnterpriseDB/pg-airman-mcp). The [resume](/resume/)
+has the details and the [talks](/talks/) page has the recordings.
 
-As a long-time open-source developer, I've embraced collaboration, shared knowledge, and the power of community-driven innovation.
+I do my best work in a team that designs together: shared planning, design sessions, and
+code reviews where people learn something. I'm looking for my next role as a tech lead or
+principal engineer, remote or around Florence. You can reach me on
+[LinkedIn](https://www.linkedin.com/in/gcalacoci/) or by
+[email](mailto:asdmaster@gmail.com).
 
-My specialities include: quickly learning new skills and programming languages, problem-solving, test-driven development, automation, designing continuous integration and continuous delivery systems, python development, and disaster recovery for Postgres, just to name some.
-
-When not behind a computer screen, I love to cook (because I'm Italian), drink coffee (no, you cannot have a cappuccino after 11 AM!), playing video games (in the end everything started because of them) and playing as a DJ.
+My fascination with computers started with Ghostbusters on the Commodore 64 and its
+multi-coloured loading screen. Away from the keyboard I cook (I'm Italian, after all),
+drink a lot of coffee (no cappuccino after 11 AM), play video games and DJ.
