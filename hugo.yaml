@@ -1,0 +1,66 @@
+baseURL: https://gcalacoci.github.io/
+locale: en-us
+title: Giulio Calacoci
+theme: hugo-coder
+timeZone: Europe/Rome
+
+enableRobotsTXT: true
+enableEmoji: true
+pagination:
+  pagerSize: 10
+
+params:
+  author: Giulio Calacoci
+  description: "Giulio Calacoci — Principal Software Engineer. Platform engineering, software delivery, PostgreSQL, open source."
+  keywords: "principal engineer,tech lead,platform engineering,postgresql,barman,python,ci/cd"
+  info:
+    - Principal Software Engineer
+    - Platform engineering · Software delivery · PostgreSQL
+  avatarURL: https://mljam0ecsbd2.i.optimole.com/co-ZpyQ-ixTzbP-P/cb:my7wLGGl.lAqnbGxX/w:auto/id:3e50dd98eca48937cd51b9b2dd4466bb/directUpload/gravatar.jpeg
+  dateFormat: "January 2, 2006"
+  since: 2023
+  # Dark by default, toggle for light mode
+  colorScheme: dark
+  hideColorSchemeToggle: false
+
+  social:
+    - name: GitHub
+      icon: fa-brands fa-github fa-2x
+      weight: 1
+      url: https://github.com/gcalacoci
+    - name: LinkedIn
+      icon: fa-brands fa-linkedin fa-2x
+      weight: 2
+      url: https://www.linkedin.com/in/gcalacoci/
+    - name: Email
+      icon: fa-solid fa-envelope fa-2x
+      weight: 3
+      url: mailto:asdmaster@gmail.com
+    - name: RSS
+      icon: fa-solid fa-rss fa-2x
+      weight: 4
+      url: index.xml
+      rel: alternate
+      type: application/rss+xml
+
+menu:
+  main:
+    - name: About
+      url: /about/
+      weight: 10
+    - name: Talks
+      url: /talks/
+      weight: 20
+    - name: Resume
+      url: /resume/
+      weight: 30
+    - name: Posts
+      url: /posts/
+      weight: 40
+
+markup:
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true

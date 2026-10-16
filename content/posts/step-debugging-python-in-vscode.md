@@ -1,9 +1,8 @@
 ---
-layout: post
 title: Step debugging python in vscode
-date: 2023-12-14 14:31 +0100
-categories: python vscode development devlife debugging
-tags: python vscode development devlife debugging path pythonpath
+date: 2023-12-14T14:31:00+01:00
+categories: [python, vscode, development, devlife, debugging]
+tags: [python, vscode, development, devlife, debugging, path, pythonpath]
 ---
 
 I've struggled a lot in making python debugging work in vscode, so I'm writing this post to help others (and myself in the future).

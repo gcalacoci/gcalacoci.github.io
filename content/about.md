@@ -1,7 +1,5 @@
 ---
-# the default layout is 'page'
-icon: fas fa-info-circle
-order: 1
+title: About
 ---
 
 Software architect, open-source enthusiast, automation lover.
