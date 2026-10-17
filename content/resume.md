@@ -105,8 +105,8 @@ Joined through EDB's acquisition of 2ndQuadrant.
 ## Open Source
 
 - **[pg-airman-mcp](https://github.com/EnterpriseDB/pg-airman-mcp)**: MCP server that
-  gives AI agents governed access to PostgreSQL (Python). Took over EDB's fork of an
-  abandoned project and led it to 1.0, writing 77 of the 90 commits since the fork:
+  gives AI agents governed access to PostgreSQL (Python). Took over EDB's fork of a
+  then-inactive project and led it to 1.0, writing 77 of the 90 commits since the fork:
   streamable HTTP transport, OAuth 2.0 (token introspection and JWT), DNS rebinding
   protection, hardened containers, purpose logging and session tracing.
 - **[Barman](https://github.com/EnterpriseDB/barman)**: developer since 2013, tech lead
