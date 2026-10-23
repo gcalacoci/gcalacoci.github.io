@@ -5,22 +5,23 @@ description: "Giulio Calacoci, Principal Software Engineer: experience, open sou
 
 [Download the PDF](/cv/giulio-calacoci-cv.pdf) · last updated October 2026
 
-**Principal Software Engineer · Tech Lead · Platform Engineering, Software Delivery, PostgreSQL**
+**Principal Software Engineer · Tech Lead · PostgreSQL, Platform Engineering, AI Agent Infrastructure**
 
-Florence, Italy · Open to remote (EU / US) · asdmaster@gmail.com  
+Florence, Italy · Open to remote (EU) · asdmaster@gmail.com  
 [linkedin.com/in/gcalacoci](https://www.linkedin.com/in/gcalacoci) · [github.com/gcalacoci](https://github.com/gcalacoci) · [gcalacoci.github.io](https://gcalacoci.github.io)
 
 ---
 
 ## Summary
 
-Principal software engineer with 20 years of experience, 15 of them in the PostgreSQL
-ecosystem. At EDB I led the Barman team, hiring and mentoring the engineers who now write
-most of the project, and I created Foundation, the delivery framework that builds and
-ships every EDB product. My last role was in EDB's AI team, where I worked on MCP
-connectivity for AIDB, starting from pg-airman-mcp, an open-source MCP server I took from
-fork to 1.0. I'm looking for a tech lead or principal role in a team that designs and
-builds together.
+Principal engineer with 20 years of software engineering, 15 of them in the PostgreSQL
+ecosystem. At 2ndQuadrant: PostgreSQL consultant and support on-call, Barman developer
+from 2013, and builder of the continuous delivery platform for every product. At EDB:
+Foundation, the multi-tenant CI/CD framework that builds and ships every EDB product;
+Barman tech lead with a team of up to six; the PostgreSQL optimization project in the
+control plane of EDB's managed Postgres service; and, in the AI team, the layer between
+AI agents and the database (MCP, OAuth 2.0, session tracing, least-privilege access).
+Looking for a tech lead, staff or principal role in a team that designs and builds together.
 
 ---
 
@@ -33,113 +34,99 @@ Joined through EDB's acquisition of 2ndQuadrant.
 
 **AI team (Mar 2026 – Aug 2026)**
 
-- Recruited into the AI team as a senior engineer on the strength of pg-airman-mcp.
-- Co-designed the internal MCP connections of EDB AIDB, first through pg-airman-mcp and
-  then in internal Rust components. Part of the engineering team behind AIDB 7.7, which
-  added an MCP endpoint and in-database agents to Postgres.
-- Designed an observability layer for the AI platform and contributed to early work on
-  agent governance.
+- Recruited into the AI team on the strength of pg-airman-mcp, which started from proofs
+  of concept with the VP of the unit; part of the group that reviewed architecture
+  decisions with VPs and SVPs.
+- Co-designed the MCP connections of EDB AIDB; part of the team behind AIDB 7.7, which
+  added an MCP endpoint and in-database agents to Postgres for EDB's enterprise customers.
+- Designed session tracing and purpose logging, an audit trail linking each query to the
+  agent session and its declared purpose; worked on agent governance with Postgres roles,
+  grants and row-level security. Built Python components for EDB's internal Langflow fork.
 
 **Barman tech lead (2023 – Mar 2026)**
 
 - Led the technical direction of [Barman](https://github.com/EnterpriseDB/barman), the
-  open-source backup and recovery manager for PostgreSQL (3,200+ GitHub stars), with a
-  team of up to six engineers through shared planning, design sessions and peer code
-  review. Approved changes and shipped about 23 releases (3.4 to 3.18).
-- Designed EDB's technical interview for engineering hires and sat on interview panels
-  across several hiring rounds. Hired three engineers into the Barman team, then
-  onboarded and mentored them; they now write most of Barman's code.
-- From 2024, ran an internal PostgreSQL optimization project for EDB's cloud platform and
-  built proofs of concept requested by the department's VP, alongside Barman.
-- Second-level (expert) support engineer for Barman, handling escalations from EDB's
-  support team.
-- Advised the Barman team after moving to the AI team, until Aug 2026.
+  open-source backup and recovery manager for PostgreSQL (3,200+ GitHub stars), in Python:
+  WAL archiving and streaming, base backups and point-in-time recovery, with backups to
+  local disk or cloud storage (S3, Azure Blob, Google Cloud Storage). Team of up to six
+  engineers; design docs (RFCs) and PR reviews; shipped about 23 releases (3.4 to 3.18),
+  making the go/no-go call with the director.
+- Built reliability into the product: integration with PostgreSQL failover, tested on
+  Kubernetes clusters that simulate failovers and switchovers; incremental and resumable
+  backups; designed and led immutable (WORM) backup storage support.
+- Second-level (expert) support engineer for backup and recovery on customer
+  installations, several with databases above 10 TB; post-mortems were routine.
+- From 2024, ran the PostgreSQL optimization project in the control plane of EDB's
+  internal multi-tenant managed Postgres service (DBaaS) on Kubernetes, deployed through
+  Helm and Terraform; led and mentored a junior developer.
+- Designed EDB's technical interview for engineering hires. Hired three engineers into
+  the Barman team and mentored them; they now write most of Barman's code.
 
-**Software delivery (2020 – 2023)**
+**Software delivery: Foundation (2020 – 2023)**
 
+- Created **Foundation**, EDB's GitHub-based framework to build, test, sign and publish
+  every EDB product: 7 OS families and 4 CPU architectures, on GitHub Actions, AWS and
+  Cloudsmith. Took it from zero to adoption by every product team; release preparation
+  went from days to about a day.
+- One of the owners of Foundation's AWS account; managed its infrastructure as code with
+  Terraform and Helm, including the AWS Lambda functions that checked and distributed
+  packages. Release controls: review and signing before publishing, penetration-tested.
 - Technical lead of the team that merged EDB's and 2ndQuadrant's delivery
-  infrastructure after the acquisition, with two direct reports.
-- Created **Foundation**, EDB's GitHub-based framework to build, test and publish every
-  EDB product to internal and customer-facing repositories: 7 OS families (RHEL, CentOS,
-  Debian, Ubuntu, SLES, Windows, macOS) and 4 CPU architectures (x86_64, aarch64,
-  ppc64le, s390x), on GitHub Actions, AWS and Cloudsmith.
-- Replaced a complex pipeline that could not absorb the 2ndQuadrant products with a
-  simpler design built into GitHub, cutting release preparation from days to about a day.
-- Migrated the 2ndQuadrant products to EDB's infrastructure and worked with each product
-  team to adopt Foundation.
+  infrastructures, working with the SVP on infrastructure decisions; initially two direct
+  reports.
 
 ### 2ndQuadrant · Continuous Delivery Manager
 *Sep 2016 – Sep 2020 · Prato, Italy*
 
-- Designed, built and ran the company's continuous delivery platform as its tech lead,
-  reporting to product management: a Jenkins framework that standardised builds for
-  every product on every supported distribution, with automated package signing and
-  publishing.
-- Cut release time from days to hours. All development teams adopted it, most of them
-  new to CI/CD.
-- Taught Python (foundations, object-oriented programming, design patterns) in a training
-  course whose final internship brought a new engineer into 2ndQuadrant; mentored her
-  and led her work on the platform; she later became a direct report at EDB.
+- Designed, built and ran the company's continuous delivery platform: a Jenkins framework
+  that standardised builds for every product on every supported Linux distribution, with
+  automated package signing and publishing. Release time went from days to hours.
 
 ### 2ndQuadrant · Python Developer and PostgreSQL Consultant
 *Aug 2011 – Sep 2020 · Prato, Italy*
 
 - Barman developer from 2013, for a time the project's only developer and its top
   contributor.
-- PostgreSQL support engineer and disaster recovery consultant: customer support as the
-  disaster recovery and Barman specialist (and general PostgreSQL support), consultancy,
-  training, crisis support, and high-performance database design.
-- Wrote a parser that translated Oracle PL/SQL to PostgreSQL PL/pgSQL, used to migrate
-  customers from Oracle to PostgreSQL.
-- Member of ItPUG (Italian PostgreSQL User Group) and organiser of PGDay.IT.
+- PostgreSQL support engineer (L1 and L2) on the on-call rotation, weekend shifts
+  included: ran customer calls during outages or joined them as the expert.
+- Disaster recovery and high availability consultant: crisis support, consultancy,
+  training, and high-performance database design.
 
 ### Earlier
-- **Devise.IT s.r.l.**, Software Analyst (2009–2011): web applications in Java (Spring,
-  Hibernate), PHP and JavaScript for e-commerce, automotive and finance clients.
-- **grafica-web**, Chief Web Application Developer (2008–2009): led a small team building
-  the front end of the company's main application.
-- **Basis**, Help Desk Technician (2002–2003) at Nuovo Pignone (GE).
+- **Devise.IT s.r.l.**, Software Analyst (2009–2011): web applications in Java, PHP and
+  JavaScript. **grafica-web**, Chief Web Application Developer (2008–2009): led a small team.
 
 ---
 
-## Open Source
+## Open Source and Talks
 
-- **[pg-airman-mcp](https://github.com/EnterpriseDB/pg-airman-mcp)**: MCP server that
-  gives AI agents governed access to PostgreSQL (Python). Took over EDB's fork of a
-  then-inactive project and led it to 1.0, writing 77 of the 90 commits since the fork:
-  streamable HTTP transport, OAuth 2.0 (token introspection and JWT), DNS rebinding
-  protection, hardened containers, purpose logging and session tracing.
 - **[Barman](https://github.com/EnterpriseDB/barman)**: developer since 2013, tech lead
   2023–2026, 226 commits.
-
-## Selected Talks
-
-All recorded; full list at [gcalacoci.github.io/talks](https://gcalacoci.github.io/talks/).
-
-- *Barman, past, present, and future of a pioneer community project*, PGConf.EU 2025, Riga
-- *From 0 to 100: Business continuity with PostgreSQL*, DataOps Barcelona 2019
-- *Backup and Disaster Recovery of PostgreSQL databases* (workshop), DataOps Barcelona 2019
-- *PostgreSQL and Python, a match made in heaven*, EuroPython 2017
-- *Step up and face the disaster*, PostgreSQL Sessions #8, Lyon 2016
-- Six talks in Italian at PyCon Italia (2015–2018), PgDay.IT and 5432…MeetUs!
+- **[pg-airman-mcp](https://github.com/EnterpriseDB/pg-airman-mcp)**: MCP server that
+  gives AI agents governed access to PostgreSQL. Led EDB's fork to 1.0 (77 of 90 commits
+  since the fork): OAuth 2.0, read-only mode, session tracing, hardened containers, five
+  releases. Featured in a [Red Hat Developer series](https://developers.redhat.com/articles/2026/06/09/integrate-openshift-ai-and-pg-airman-mcp-server)
+  on OpenShift AI, co-authored by EDB's Torsten Steinbach.
+- Talks at PGConf.EU 2025, DataOps Barcelona 2019 and EuroPython 2017
+  ([full list](https://gcalacoci.github.io/talks/)).
 
 ---
 
 ## Skills
 
-- **Leadership:** technical direction, design reviews, hiring (interview design and
-  panels), onboarding and mentoring, cross-team adoption of shared tooling
-- **Platform and delivery:** CI/CD architecture, GitHub Actions, Jenkins, Docker,
-  multi-OS and multi-architecture packaging, Cloudsmith; AWS and Kubernetes (working
-  knowledge, hands-on)
-- **Languages:** Python (senior), Go (working knowledge), Rust (basics); earlier Java,
-  PHP, JavaScript
-- **Data:** PostgreSQL backup, disaster recovery, business continuity, performance
-- **AI:** Model Context Protocol, agent tooling, OAuth 2.0 for agent access, tracing and
-  governance
+- **PostgreSQL:** high availability, replication, failover, backup and point-in-time
+  recovery, disaster recovery, performance tuning, roles, grants and RLS
+- **Platform:** Kubernetes (hands-on; working towards the CKA), Terraform, Helm, GitHub
+  Actions, Jenkins, CI/CD and release automation, Docker, Linux; AWS (EC2, S3, IAM, VPC,
+  ECR, RDS, Lambda, CloudWatch, App Runner; wide hands-on use); monitoring with Nagios,
+  Zabbix, Grafana, some Prometheus
+- **AI:** MCP, agent access control and observability, Langflow; daily agentic work with
+  Claude Code (skills, memory, subagents)
+- **Languages:** Python (senior), SQL, Go (working knowledge, not yet strong), Rust (basics)
+- **Ways of working:** design docs and reviews, open-source maintainership, hiring and
+  mentoring, remote and asynchronous teams
 
 ## Education and Languages
 
 - Computer Science, Università degli Studi di Firenze, 2002–2008 · left to work as a developer
-- Liceo Classico (Latin, Greek, philosophy, history)
-- **Italian** (native) · **English** (professional working proficiency)
+- **Italian** (native) · **English** (full professional proficiency)
