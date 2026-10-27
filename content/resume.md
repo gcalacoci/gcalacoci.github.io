@@ -10,18 +10,18 @@ description: "Giulio Calacoci, Principal Software Engineer: experience, open sou
 Florence, Italy · Open to remote (EU) · asdmaster@gmail.com  
 [linkedin.com/in/gcalacoci](https://www.linkedin.com/in/gcalacoci) · [github.com/gcalacoci](https://github.com/gcalacoci) · [gcalacoci.github.io](https://gcalacoci.github.io)
 
+*20 years in software, 15 in PostgreSQL · built the CI/CD platform every EDB product ships through · Barman tech lead, team of up to 6*
+
 ---
 
 ## Summary
 
-Principal engineer with 20 years of software engineering, 15 of them in the PostgreSQL
-ecosystem. At 2ndQuadrant: PostgreSQL consultant and support on-call, Barman developer
-from 2013, and builder of the continuous delivery platform for every product. At EDB:
-Foundation, the multi-tenant CI/CD framework that builds and ships every EDB product;
-Barman tech lead with a team of up to six; the PostgreSQL optimization project in the
-control plane of EDB's managed Postgres service; and, in the AI team, the layer between
-AI agents and the database (MCP, OAuth 2.0, session tracing, least-privilege access).
-Looking for a tech lead, staff or principal role in a team that designs and builds together.
+Principal engineer with 20 years in software, 15 in the PostgreSQL ecosystem. Twice I
+built and ran the continuous delivery platform every product shipped through: at
+2ndQuadrant, then Foundation at EDB. I led Barman, PostgreSQL's open-source backup manager,
+with up to six engineers, and in EDB's AI team I worked on the layer between AI agents and
+the database (MCP, OAuth 2.0, session tracing). Looking for a tech lead, staff or principal
+role in a team that builds together.
 
 ---
 
@@ -61,8 +61,10 @@ Joined through EDB's acquisition of 2ndQuadrant.
   Helm and Terraform; led and mentored a junior developer.
 - Designed EDB's technical interview for engineering hires. Hired three engineers into
   the Barman team and mentored them; they now write most of Barman's code.
+- First adopter of GitHub Copilot in the Barman team, on EDB's enterprise GitHub; presented
+  the setup to the team.
 
-**Software delivery: Foundation (2020 – 2023)**
+**Continuous delivery: Foundation (2020 – 2023)**
 
 - Created **Foundation**, EDB's GitHub-based framework to build, test, sign and publish
   every EDB product: 7 OS families and 4 CPU architectures, on GitHub Actions, AWS and
@@ -71,7 +73,7 @@ Joined through EDB's acquisition of 2ndQuadrant.
 - One of the owners of Foundation's AWS account; managed its infrastructure as code with
   Terraform and Helm, including the AWS Lambda functions that checked and distributed
   packages. Release controls: review and signing before publishing, penetration-tested.
-- Technical lead of the team that merged EDB's and 2ndQuadrant's delivery
+- Technical lead of the team that merged EDB's and 2ndQuadrant's CI/CD
   infrastructures, working with the SVP on infrastructure decisions; initially two direct
   reports.
 
@@ -103,9 +105,9 @@ Joined through EDB's acquisition of 2ndQuadrant.
 - **[Barman](https://github.com/EnterpriseDB/barman)**: developer since 2013, tech lead
   2023–2026, 226 commits.
 - **[pg-airman-mcp](https://github.com/EnterpriseDB/pg-airman-mcp)**: MCP server that
-  gives AI agents governed access to PostgreSQL. Led EDB's fork to 1.0 (77 of 90 commits
-  since the fork): OAuth 2.0, read-only mode, session tracing, hardened containers, five
-  releases. Featured in a [Red Hat Developer series](https://developers.redhat.com/articles/2026/06/09/integrate-openshift-ai-and-pg-airman-mcp-server)
+  gives AI agents governed access to PostgreSQL. Led EDB's fork to 1.0 and beyond (77 of 90
+  commits since the fork): OAuth 2.0, session tracing and purpose logging, hardened
+  containers, five releases. Featured in a [Red Hat Developer series](https://developers.redhat.com/articles/2026/06/09/integrate-openshift-ai-and-pg-airman-mcp-server)
   on OpenShift AI, co-authored by EDB's Torsten Steinbach.
 - Talks at PGConf.EU 2025, DataOps Barcelona 2019 and EuroPython 2017
   ([full list](https://gcalacoci.github.io/talks/)).
@@ -122,7 +124,7 @@ Joined through EDB's acquisition of 2ndQuadrant.
   Zabbix, Grafana, some Prometheus
 - **AI:** MCP, agent access control and observability, Langflow; daily agentic work with
   Claude Code (skills, memory, subagents)
-- **Languages:** Python (senior), SQL, Go (working knowledge, not yet strong), Rust (basics)
+- **Languages:** Python (senior), SQL, Go (working knowledge)
 - **Ways of working:** design docs and reviews, open-source maintainership, hiring and
   mentoring, remote and asynchronous teams
 
