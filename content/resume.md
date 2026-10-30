@@ -102,8 +102,8 @@ Joined through EDB's acquisition of 2ndQuadrant.
 
 ## Open Source and Talks
 
-- **[Barman](https://github.com/EnterpriseDB/barman)**: developer since 2013, tech lead
-  2023–2026, 226 commits.
+- **[Barman](https://github.com/EnterpriseDB/barman)**: developer since 2013 (226
+  commits), tech lead 2023–2026.
 - **[pg-airman-mcp](https://github.com/EnterpriseDB/pg-airman-mcp)**: MCP server that
   gives AI agents governed access to PostgreSQL. Led EDB's fork to 1.0 and beyond (77 of 90
   commits since the fork): OAuth 2.0, session tracing and purpose logging, hardened
