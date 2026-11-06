@@ -59,7 +59,7 @@ Joined through EDB's acquisition of 2ndQuadrant.
 - From 2024, ran the PostgreSQL optimization project in the control plane of EDB's
   internal multi-tenant managed Postgres service (DBaaS) on Kubernetes, deployed through
   Helm and Terraform; led and mentored a junior developer.
-- Designed EDB's technical interview for engineering hires. Hired three engineers into
+- Designed technical interview for my teams' hires. Hired three engineers into
   the Barman team and mentored them; they now write most of Barman's code.
 - First adopter of GitHub Copilot in the Barman team, on EDB's enterprise GitHub; presented
   the setup to the team.
