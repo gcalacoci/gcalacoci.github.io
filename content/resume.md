@@ -27,8 +27,8 @@ role in a team that builds together.
 
 ## Experience
 
-### EDB (EnterpriseDB) · Principal Software Engineer
-*Sep 2020 – Aug 2026 · Florence, Italy (remote) · title formerly Principal DevOps Architect*
+### EDB (EnterpriseDB) · Principal DevOps Architect → Principal Software Engineer
+*Sep 2020 – Aug 2026 · Florence, Italy (remote)*
 
 Joined through EDB's acquisition of 2ndQuadrant.
 
@@ -64,9 +64,9 @@ Joined through EDB's acquisition of 2ndQuadrant.
 - First adopter of GitHub Copilot in the Barman team, on EDB's enterprise GitHub; presented
   the setup to the team.
 
-**Continuous delivery: Foundation (2020 – 2023)**
+**Principal DevOps Architect: Foundation, continuous delivery (2020 – 2023)**
 
-- Created **Foundation**, EDB's GitHub-based framework to build, test, sign and publish
+- Lead architect and creator of **Foundation**, EDB's GitHub-based framework to build, test, sign and publish
   every EDB product: 7 OS families and 4 CPU architectures, on GitHub Actions, AWS and
   Cloudsmith. Took it from zero to adoption by every product team; release preparation
   went from days to about a day.
