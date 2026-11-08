@@ -14,6 +14,13 @@ team working on MCP connectivity for Postgres, starting from
 [pg-airman-mcp](https://github.com/EnterpriseDB/pg-airman-mcp). The [resume](/resume/)
 has the details and the [talks](/talks/) page has the recordings.
 
+> One of the most adaptable and impactful Engineers I have managed. [...] Any engineering
+> team that needs a principal engineer who can work across both the tooling layer and the
+> database internals will get a lot from Giulio.
+>
+> — Martín Marqués, Director of Engineering, Database tooling
+> ([LinkedIn recommendation](https://www.linkedin.com/in/gcalacoci/details/recommendations/), Nov 2026)
+
 I do my best work in a team that designs together: shared planning, design sessions, and
 code reviews where people learn something. I'm looking for my next role as a tech lead or
 principal engineer, remote or around Florence. You can reach me on
