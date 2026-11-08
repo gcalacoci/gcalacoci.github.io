@@ -5,23 +5,23 @@ description: "Giulio Calacoci, Principal Software Engineer: experience, open sou
 
 [Download the PDF](/cv/giulio-calacoci-cv.pdf) · last updated October 2026
 
-**Principal Software Engineer · Tech Lead · PostgreSQL, Platform Engineering, AI Agent Infrastructure**
+**Principal Software Engineer · Tech Lead · AI Agent Infrastructure, PostgreSQL, Platform Engineering**
 
 Florence, Italy · Open to remote (EU) · asdmaster@gmail.com  
-[linkedin.com/in/gcalacoci](https://www.linkedin.com/in/gcalacoci) · [github.com/gcalacoci](https://github.com/gcalacoci) · [gcalacoci.github.io](https://gcalacoci.github.io)
+[linkedin.com/in/gcalacoci](https://www.linkedin.com/in/gcalacoci) · [github.com/gcalacoci](https://github.com/gcalacoci) · [gcalacoci.com](https://gcalacoci.com)
 
-*20 years in software, 15 in PostgreSQL · built the CI/CD platform every EDB product ships through · Barman tech lead, team of up to 6*
+*20 years in software, 15 in PostgreSQL · AI agent infrastructure since 2025 · built the CI/CD platform every EDB product ships through · Barman tech lead, team of up to 6*
 
 ---
 
 ## Summary
 
-Principal engineer with 20 years in software, 15 in the PostgreSQL ecosystem. Twice I
-built and ran the continuous delivery platform every product shipped through: at
-2ndQuadrant, then Foundation at EDB. I led Barman, PostgreSQL's open-source backup manager,
-with up to six engineers, and in EDB's AI team I worked on the layer between AI agents and
-the database (MCP, OAuth 2.0, session tracing). Looking for a tech lead, staff or principal
-role in a team that builds together.
+Principal engineer, 20 years in software, 15 in PostgreSQL. Twice I built the
+continuous delivery platform every product shipped through: at 2ndQuadrant, then
+Foundation at EDB. I led Barman, PostgreSQL's open-source backup manager, with up to six engineers. Since 2024 I
+have built proofs of concept for the VP: a PostgreSQL optimizer, then AI agents from 2025,
+which led to pg-airman-mcp and EDB's AI team. Looking for a tech lead, principal or
+engineering manager role.
 
 ---
 
@@ -32,18 +32,20 @@ role in a team that builds together.
 
 Joined through EDB's acquisition of 2ndQuadrant.
 
-**AI team (Mar 2026 – Aug 2026)**
+**AI and agent infrastructure (Mar 2025 – Aug 2026)**
 
-- Recruited into the AI team on the strength of pg-airman-mcp, which started from proofs
-  of concept with the VP of the unit; part of the group that reviewed architecture
-  decisions with VPs and SVPs.
+- From March 2025, alongside the Barman lead: R&D and proofs of concept with the VP of the
+  unit on AI agents and PostgreSQL. One of them became pg-airman-mcp, EDB's fork of the
+  abandoned postgres-mcp project; I led it to 1.0 and production (see Open Source).
+- AI team (Mar 2026 – Aug 2026): recruited into the team on the strength of pg-airman-mcp;
+  part of the group that reviewed architecture decisions with VPs and SVPs.
 - Co-designed the MCP connections of EDB AIDB; part of the team behind AIDB 7.7, which
   added an MCP endpoint and in-database agents to Postgres for EDB's enterprise customers.
 - Designed session tracing and purpose logging, an audit trail linking each query to the
   agent session and its declared purpose; worked on agent governance with Postgres roles,
   grants and row-level security. Built Python components for EDB's internal Langflow fork.
 
-**Barman tech lead (2023 – Mar 2026)**
+**Tech lead: Barman and the PostgreSQL optimization project (2023 – Mar 2026)**
 
 - Led the technical direction of [Barman](https://github.com/EnterpriseDB/barman), the
   open-source backup and recovery manager for PostgreSQL (3,200+ GitHub stars), in Python:
@@ -56,9 +58,11 @@ Joined through EDB's acquisition of 2ndQuadrant.
   backups; designed and led immutable (WORM) backup storage support.
 - Second-level (expert) support engineer for backup and recovery on customer
   installations, several with databases above 10 TB; post-mortems were routine.
-- From 2024, ran the PostgreSQL optimization project in the control plane of EDB's
-  internal multi-tenant managed Postgres service (DBaaS) on Kubernetes, deployed through
-  Helm and Terraform; led and mentored a junior developer.
+- PostgreSQL optimization project (2024 – Mar 2026): began as a proof of concept I built
+  for the VP of the unit; after a presentation to executive leadership it became a
+  project, which I led, mentoring a junior developer. It runs in the control plane of
+  EDB's internal multi-tenant managed Postgres service (DBaaS) on Kubernetes, deployed
+  through Helm and Terraform.
 - Designed the technical interview my teams used for hiring. Hired three engineers into
   the Barman team and mentored them; they now write most of Barman's code.
 - First adopter of GitHub Copilot in the Barman team, on EDB's enterprise GitHub; presented
@@ -74,8 +78,8 @@ Joined through EDB's acquisition of 2ndQuadrant.
   Terraform and Helm, including the AWS Lambda functions that checked and distributed
   packages. Release controls: review and signing before publishing, penetration-tested.
 - Technical lead of the team that merged EDB's and 2ndQuadrant's CI/CD
-  infrastructures, working with the SVP on infrastructure decisions; initially two direct
-  reports.
+  infrastructures, working with the SVP on infrastructure decisions.
+- Two direct reports (2020–2023).
 
 ### 2ndQuadrant · Continuous Delivery Manager
 *Sep 2016 – Sep 2020 · Prato, Italy*
@@ -106,11 +110,11 @@ Joined through EDB's acquisition of 2ndQuadrant.
   commits), tech lead 2023–2026.
 - **[pg-airman-mcp](https://github.com/EnterpriseDB/pg-airman-mcp)**: MCP server that
   gives AI agents governed access to PostgreSQL. Led EDB's fork to 1.0 and beyond (77 of 90
-  commits since the fork): OAuth 2.0, session tracing and purpose logging, hardened
+  commits since the fork; built with AI-assisted development): OAuth 2.0, session tracing and purpose logging, hardened
   containers, five releases. Featured in a [Red Hat Developer series](https://developers.redhat.com/articles/2026/06/09/integrate-openshift-ai-and-pg-airman-mcp-server)
-  on OpenShift AI, co-authored by EDB's Torsten Steinbach.
+  on OpenShift AI, co-authored by EDB's AI lead.
 - Talks at PGConf.EU 2025, DataOps Barcelona 2019 and EuroPython 2017
-  ([full list](https://gcalacoci.github.io/talks/)).
+  ([full list](https://gcalacoci.com/talks/)).
 
 ---
 
