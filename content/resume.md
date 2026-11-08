@@ -104,7 +104,7 @@ Joined through EDB's acquisition of 2ndQuadrant.
 
 ---
 
-## Open Source and Talks
+## Open Source
 
 - **[Barman](https://github.com/EnterpriseDB/barman)**: developer since 2013 (226
   commits), tech lead 2023–2026.
@@ -113,8 +113,37 @@ Joined through EDB's acquisition of 2ndQuadrant.
   commits since the fork; built with AI-assisted development): OAuth 2.0, session tracing and purpose logging, hardened
   containers, five releases. Featured in a [Red Hat Developer series](https://developers.redhat.com/articles/2026/06/09/integrate-openshift-ai-and-pg-airman-mcp-server)
   on OpenShift AI, co-authored by EDB's AI lead.
-- Talks at PGConf.EU 2025, DataOps Barcelona 2019 and EuroPython 2017
-  ([full list](https://gcalacoci.com/talks/)).
+
+---
+
+## Independent Projects (2026)
+
+- **Agent orchestrator:** Claude plans and leads cheaper and free models in a sandbox;
+  coding tasks start from a failing test, the checks re-run and I review the result. Data
+  classes decide which models may see which data; routes come from logged pass rates, and
+  replay benches re-run real past features against the reference build.
+- **Guardrails:** a pre-tool hook blocks secret reads, pushes and destructive commands,
+  with tests and an audit log; a fact gate checks drafted claims against source documents.
+- **Autonomous data pipelines:** nightly agent pipelines collect web data from about 140
+  sources (up to about 18,000 items a night), back off on rate limits, detect bot walls,
+  and have agents triage the results.
+- **[session-council](https://github.com/gcalacoci/session-council)** (open source, MIT):
+  rules and a judge skill for long-running Claude Code sessions that review each other's
+  work. Blind first rounds, reasons labelled fact or guess, a checked fact outweighs a
+  majority, and votes only recommend: I approve every decision. Used to restructure this CV.
+
+## Writing and Talks
+
+- **Blog** at [gcalacoci.com](https://gcalacoci.com/posts/), cross-posted on dev.to: the
+  series *Searching for a job in the AI era*, written while the search runs, and
+  [a post on Claude Code sessions reviewing each other](https://gcalacoci.com/posts/letting-my-claude-code-sessions-argue/).
+- **Talks** ([details and slides](https://gcalacoci.com/talks/)):
+    - *Barman, past, present, and future of a pioneer community project*, PGConf.EU 2025, Riga
+    - *From 0 to 100: Business continuity with PostgreSQL*, and a two-part workshop on backup
+      and disaster recovery of PostgreSQL, DataOps Barcelona 2019
+    - *PostgreSQL and Python, a match made in heaven*, EuroPython 2017
+    - *Step up and face the disaster*, Dalibo PG Session #8, 2016
+    - In Italian: PyCon Italia 2015 to 2018, PgDay.IT 2017, 5432...MeetUs! 2016
 
 ---
 
@@ -126,11 +155,17 @@ Joined through EDB's acquisition of 2ndQuadrant.
   Actions, Jenkins, CI/CD and release automation, Docker, Linux; AWS (EC2, S3, IAM, VPC,
   ECR, RDS, Lambda, CloudWatch, App Runner; wide hands-on use); monitoring with Nagios,
   Zabbix, Grafana, some Prometheus
-- **AI:** MCP, agent access control and observability, Langflow; daily agentic work with
-  Claude Code (skills, memory, subagents)
+- **AI engineering:** LLM agents in production, MCP servers and tool access, agent access
+  control (OAuth 2.0, Postgres roles, grants and RLS), session tracing and purpose logging,
+  Langflow; multi-agent orchestration, evals and replay benches, guardrails with human
+  review, spec-driven development and TDD with agents; daily agentic work with Claude Code
+  (skills, memory, subagents)
 - **Languages:** Python (senior), SQL, Go (working knowledge)
-- **Ways of working:** design docs and reviews, open-source maintainership, hiring and
-  mentoring, remote and asynchronous teams
+- **Ways of working:** end-to-end ownership; starting from no clear spec and shaping it
+  (2ndQuadrant's CD platform, proofs of concept for the VP); design and decision documents;
+  regular discussions with product managers and other principal engineers on their
+  projects; customer feedback loops; open-source maintainership; hiring and mentoring;
+  remote and asynchronous teams, documentation for everything
 
 ## Education and Languages
 
