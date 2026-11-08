@@ -1,0 +1,8 @@
+{{- /* Overrides the theme partial: pinned count.v5.js with SRI (hash from
+       goatcounter.com/help/countjs-versions, checked 08/11/2026), production builds only. */ -}}
+{{- if hugo.IsProduction -}}
+<script data-goatcounter="https://{{ $.Site.Params.goatCounter.code }}.goatcounter.com/count"
+        async src="https://gc.zgo.at/count.v5.js"
+        crossorigin="anonymous"
+        integrity="sha384-atnOLvQb9t+jTSipvd75X2yginT4PjVbqDdlJAmxMm+wYElFmeR6EmLP5bYeoRVQ"></script>
+{{- end -}}

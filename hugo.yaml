@@ -11,6 +11,9 @@ pagination:
 
 params:
   author: Giulio Calacoci
+  # Cookie-less visit counts (GoatCounter, 08/11/2026); script pinned in layouts/_partials/analytics/goatcounter.html
+  goatCounter:
+    code: gcalacoci
   # Home page <title>; other pages use "<Page> · Giulio Calacoci"
   HeadTitle: "Giulio Calacoci · Principal Software Engineer, PostgreSQL and Barman"
   description: "Giulio Calacoci, Principal Software Engineer and tech lead from Florence, Italy. PostgreSQL, Barman, software delivery platforms, MCP for Postgres."
