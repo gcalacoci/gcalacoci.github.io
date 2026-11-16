@@ -54,6 +54,6 @@ The same idea applies to decisions. Some jobs are too big for one session, so I 
 
 Bigger decisions wait for me. Votes only recommend: I approve every decision.
 
-## In a product: governance for agents in EDB AIDB
+## In production: governance for agents
 
-Before this was a personal system, it was my work. In EDB AIDB, which brings agents and an MCP endpoint into Postgres, I worked on the first layer of agent governance. We were building it on what Postgres already enforces: roles, grants and row-level security, with OAuth in front. The MCP piece was pg-airman-mcp ([github.com/EnterpriseDB/pg-airman-mcp](https://github.com/EnterpriseDB/pg-airman-mcp)). There I added the missing view: session tracing and purpose logging. With them I could follow every query from the agent through MCP to the database and tie it to the purpose the agent declared. In a workflow built on it, a query outside that purpose failed in the database, whatever the agent tried. The limit lives where the model cannot talk its way past it.
+Before this was a personal system, it was my day job. At work I helped lay the base of governance for agents that query Postgres. We built it on what the database already enforces: roles, grants and row-level security, with OAuth in front. I led pg-airman-mcp, the open-source MCP server in that path, to 1.0. I added session tracing and purpose logging, so every query is tied to the agent session and the purpose it declared. A query outside that purpose fails in the database, whatever the agent tries. The limit lives where the model cannot talk its way past it.
