@@ -15,8 +15,8 @@ team working on MCP connectivity for Postgres, starting from
 has the details and the [talks](/talks/) page has the recordings.
 
 I do my best work in a team that designs together: shared planning, design sessions, and
-code reviews where people learn something. I'm looking for my next role as a tech lead or
-principal engineer, remote or around Florence. You can reach me on
+code reviews where people learn something. I'm looking for my next role as a Staff or
+Principal engineer who still leads a team, or as Head of Engineering, remote or around Florence. You can reach me on
 [LinkedIn](https://www.linkedin.com/in/gcalacoci/) or by
 [email](mailto:asdmaster@gmail.com).
 
